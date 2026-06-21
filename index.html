@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bryant Ekpa — Web Developer</title>
+<meta name="description" content="Bryant Ekpa is a professional web developer based in Nigeria, building fast, clean, and conversion-focused websites for businesses worldwide.">
+<meta property="og:title" content="Bryant Ekpa — Web Developer">
+<meta property="og:description" content="Fast, clean, conversion-focused websites. Available for freelance projects worldwide.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bryantekpa.netlify.app">
+<meta name="twitter:card" content="summary_large_image">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-logo">Bryant<span>.</span>dev</div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Bryant<span>.</span>dev</a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact" class="nav-cta">Hire me</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#services">Services</a>
+  <a href="#projects">Projects</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#testimonials">Reviews</a>
+  <a href="#about">About</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Hire me →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-eyebrow">Available for projects</div>
+      <h1>I build websites<br>that <em>win clients</em><br>for you.</h1>
+      <p class="hero-sub">Full-stack web developer crafting fast, clean, and conversion-focused websites. From landing pages to full web apps — let's make your business stand out online.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View my work →</a>
+        <a href="#contact" class="btn-outline">Let's talk</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="stat-num">30+</div><div class="stat-label">Projects delivered</div></div>
+        <div><div class="stat-num">5★</div><div class="stat-label">Client rating</div></div>
+        <div><div class="stat-num">4yr</div><div class="stat-label">Experience</div></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-card-header">
+          <div class="dot dot-red"></div><div class="dot dot-yellow"></div><div class="dot dot-green"></div>
+        </div>
+        <div><span class="c-purple">const</span> <span class="c-blue">developer</span> <span class="c-white">= {</span></div>
+        <div>&nbsp;&nbsp;<span class="c-green">name</span><span class="c-white">:</span> <span class="c-orange">'Bryant Ekpa'</span><span class="c-white">,</span></div>
+        <div>&nbsp;&nbsp;<span class="c-green">skills</span><span class="c-white">: [</span><span class="c-orange">'HTML'</span><span class="c-white">,</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-orange">'CSS'</span><span class="c-white">,</span> <span class="c-orange">'JS'</span><span class="c-white">],</span></div>
+        <div>&nbsp;&nbsp;<span class="c-green">available</span><span class="c-white">:</span> <span class="c-blue">true</span><span class="c-white">,</span></div>
+        <div>&nbsp;&nbsp;<span class="c-green">goal</span><span class="c-white">:</span> <span class="c-orange">'build great</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-orange">things'</span></div>
+        <div><span class="c-white">}</span></div>
+        <div>&nbsp;</div>
+        <div><span class="c-blue">developer</span><span class="c-white">.</span><span class="c-green">hire</span><span class="c-white">();</span> <span class="c-gray">// 🚀</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES (rendered from data.json) -->
+<section class="services" id="services">
+  <div class="section-inner">
+    <div class="section-label reveal">What I offer</div>
+    <h2 class="section-title reveal">Services built for<br>real business results</h2>
+    <p class="section-sub reveal">Every service I offer is focused on one outcome: making your business more visible and converting visitors into paying customers.</p>
+    <div class="services-grid" id="services-grid">
+      <!-- JS injects service cards here from data.json -->
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS (rendered from data.json) -->
+<section class="projects" id="projects">
+  <div class="section-inner">
+    <div class="section-label reveal">My work</div>
+    <h2 class="section-title reveal">Projects that delivered</h2>
+    <p class="section-sub reveal">A selection of recent work. Each one built with a clear purpose, clean code, and real results in mind.</p>
+    <div class="projects-grid" id="projects-grid">
+      <!-- JS injects project cards here from data.json -->
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="section-inner">
+    <div class="section-label reveal">Client reviews</div>
+    <h2 class="section-title reveal">What clients say</h2>
+    <p class="section-sub reveal">Real feedback from people I've worked with. Results and relationships matter most to me.</p>
+
+    <!-- LIVE REVIEWS FROM SUPABASE -->
+    <div class="testimonials-grid" id="reviews-grid">
+      <div class="reviews-loading">Loading reviews...</div>
+    </div>
+
+    <!-- LEAVE A REVIEW FORM -->
+    <div class="review-form-wrap reveal">
+      <h3 class="review-form-title">Worked with me? Leave a review</h3>
+      <p class="review-form-sub">Your review will appear after approval. Takes 30 seconds.</p>
+      <form id="review-form">
+        <div class="review-form-row">
+          <input type="text" id="r-name" placeholder="Your name" required>
+          <input type="text" id="r-role" placeholder="Your role / company (optional)">
+        </div>
+        <div class="star-picker" id="star-picker">
+          <span>Rating:</span>
+          <div class="stars-input">
+            <span class="star-btn" data-val="1">★</span>
+            <span class="star-btn" data-val="2">★</span>
+            <span class="star-btn" data-val="3">★</span>
+            <span class="star-btn" data-val="4">★</span>
+            <span class="star-btn" data-val="5">★</span>
+          </div>
+        </div>
+        <textarea id="r-message" placeholder="Share your experience working with Bryant..." required></textarea>
+        <button type="submit" class="btn-review-submit">Submit review →</button>
+      </form>
+      <div id="review-success" style="display:none;" class="review-success-msg">
+        ✓ Thanks! Your review has been submitted and will appear after approval.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING (rendered from data.json) -->
+<section class="pricing" id="pricing">
+  <div class="section-inner">
+    <div class="section-label reveal">Pricing</div>
+    <h2 class="section-title reveal">Clear, honest pricing</h2>
+    <p class="section-sub reveal">No hidden fees. Pick the package that fits your needs — or reach out for a custom quote.</p>
+    <div class="pricing-grid" id="pricing-grid">
+      <!-- JS injects pricing cards here from data.json -->
+    </div>
+    <p class="pricing-note reveal">💬 Not sure which package you need? <a href="#contact" style="color:var(--blue);font-weight:600;">Send me a message</a> and I'll recommend the best fit for your project.</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="about-photo-wrap">
+          <div class="about-photo" id="photo-circle">BE</div>
+        </div>
+        <div class="section-label">About me</div>
+        <h2 class="section-title">Code with purpose,<br>design with intent</h2>
+        <p>I'm Bryant Ekpa, a self-taught web developer with 4 years of experience building websites and web apps for businesses across industries. I care about one thing above all: does it work for the client's goals?</p>
+        <p>I write clean, well-organised HTML, CSS, and JavaScript — no bloated frameworks, just fast and maintainable code. Every project I take on gets my full attention from brief to launch.</p>
+        <div class="skills-list">
+          <span class="skill-pill">HTML5</span><span class="skill-pill">CSS3</span><span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">JSON / REST APIs</span><span class="skill-pill">Responsive Design</span>
+          <span class="skill-pill">SEO Basics</span><span class="skill-pill">Git & GitHub</span><span class="skill-pill">Figma</span>
+        </div>
+      </div>
+      <div class="about-visual reveal">
+        <div class="exp-card"><div class="exp-year">2024</div><div><div class="exp-title">Senior Freelance Developer</div><div class="exp-sub">Independent — Client projects globally</div></div></div>
+        <div class="exp-card"><div class="exp-year">2022</div><div><div class="exp-title">Frontend Developer</div><div class="exp-sub">Digital Agency, Lagos</div></div></div>
+        <div class="exp-card"><div class="exp-year">2021</div><div><div class="exp-title">Junior Web Developer</div><div class="exp-sub">TechStart Ltd — Internship</div></div></div>
+        <div class="exp-card"><div class="exp-year">2020</div><div><div class="exp-title">Started coding</div><div class="exp-sub">Self-taught — HTML, CSS, JS</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ (rendered from data.json) -->
+<section class="faq" id="faq">
+  <div class="section-inner">
+    <div class="section-label reveal">Common questions</div>
+    <h2 class="section-title reveal">Before you reach out</h2>
+    <p class="section-sub reveal">Quick answers to what most clients want to know before starting a project.</p>
+
+    <div class="faq-list" id="faq-list">
+      <!-- JS injects FAQ items here from data.json -->
+    </div>
+
+    <p class="faq-note reveal">Still have a question? <a href="#contact" style="color:var(--blue);font-weight:600;">Just ask me directly</a> — happy to help before you commit to anything.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="section-label reveal">Get in touch</div>
+    <h2 class="section-title reveal">Ready to build<br>something great?</h2>
+    <p class="section-sub reveal">Tell me about your project — I usually respond within 24 hours.</p>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-row"><div class="contact-icon">📧</div><span>brianekpa40@gmail.com</span></div>
+        <div class="contact-row"><div class="contact-icon">📱</div><span>08169020467</span></div>
+        <div class="contact-row"><div class="contact-icon">🌍</div><span>Available worldwide — remote-friendly</span></div>
+        <div class="contact-row"><div class="contact-icon">⏱</div><span>Typical response: within 24 hours</span></div>
+        <a href="https://wa.me/2348169020467" target="_blank" class="whatsapp-btn">
+          <span>💬</span> Chat on WhatsApp
+        </a>
+      </div>
+      <form id="contact-form" class="reveal">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <input type="text" name="project_type" placeholder="Project type (e.g. landing page, e-commerce...)">
+        <textarea name="message" placeholder="Tell me about your project..."></textarea>
+        <button type="submit" class="btn-send">Send message →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="https://github.com" target="_blank">GitHub</a>
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+    <a href="mailto:brianekpa40@gmail.com">Email</a>
+  </div>
+  <p>© 2025 <span>Bryant Ekpa</span> — Web Developer · Built with HTML, CSS &amp; JavaScript</p>
+</footer>
+
+<!-- BACK TO TOP -->
+<button id="back-to-top" aria-label="Back to top">↑</button>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/2348169020467" target="_blank" id="whatsapp-float" title="Chat on WhatsApp">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+{
+  "services": [
+    { "icon": "🎨", "title": "Landing Pages", "desc": "Pixel-perfect landing pages designed to capture leads and drive conversions. Fast, mobile-first, and built to impress." },
+    { "icon": "🌐", "title": "Business Websites", "desc": "Professional multi-page websites that tell your brand story and build trust with potential clients from the first click." },
+    { "icon": "⚡", "title": "Performance Optimization", "desc": "Slow sites lose clients. I audit and optimize existing websites for speed, SEO, and Core Web Vitals scores." },
+    { "icon": "🛒", "title": "E-commerce Stores", "desc": "Clean, fast online stores that make buying easy. Product pages, carts, and checkout flows that minimize drop-off." },
+    { "icon": "🔧", "title": "Website Maintenance", "desc": "Ongoing updates, bug fixes, and improvements so your site stays current, secure, and performing at its best." },
+    { "icon": "📱", "title": "Responsive Design", "desc": "Every site I build works flawlessly on phones, tablets, and desktops. No exceptions — your clients browse everywhere." }
+  ],
+
+  "projects": [
+    {
+      "name": "Lonestar Hope",
+      "url": "https://lonestarhope.netlify.app/",
+      "screenshot": "https://api.screenshotone.com/take?url=https://lonestarhope.netlify.app&viewport_width=1280&viewport_height=800&device_scale_factor=1&format=jpg&image_quality=80&access_key=free",
+      "fallback": "https://placehold.co/1280x800/1e3050/ffffff?text=Lonestar+Hope",
+      "tags": ["HTML", "CSS", "JS"],
+      "desc": "A clean, purpose-driven website built to connect and inspire. Focused on clear messaging and a welcoming user experience."
+    },
+    {
+      "name": "Valeria Music",
+      "url": "https://valeriamusic.netlify.app/",
+      "screenshot": "https://api.screenshotone.com/take?url=https://valeriamusic.netlify.app&viewport_width=1280&viewport_height=800&device_scale_factor=1&format=jpg&image_quality=80&access_key=free",
+      "fallback": "https://placehold.co/1280x800/1e3050/ffffff?text=Valeria+Music",
+      "tags": ["HTML", "CSS", "JS"],
+      "desc": "An elegant music artist website showcasing discography, visuals, and brand identity with a polished, professional feel."
+    },
+    {
+      "name": "Jesus Bible Map",
+      "url": "https://jesusbiblemap.netlify.app/",
+      "screenshot": "https://api.screenshotone.com/take?url=https://jesusbiblemap.netlify.app&viewport_width=1280&viewport_height=800&device_scale_factor=1&format=jpg&image_quality=80&access_key=free",
+      "fallback": "https://placehold.co/1280x800/1e3050/ffffff?text=Jesus+Bible+Map",
+      "tags": ["HTML", "CSS", "JS"],
+      "desc": "An interactive Bible mapping project presenting scripture locations in a visually engaging and easy-to-navigate format."
+    },
+    {
+      "name": "Valorganic",
+      "url": "https://valorganic.netlify.app/",
+      "screenshot": "https://api.screenshotone.com/take?url=https://valorganic.netlify.app&viewport_width=1280&viewport_height=800&device_scale_factor=1&format=jpg&image_quality=80&access_key=free",
+      "fallback": "https://placehold.co/1280x800/1e3050/ffffff?text=Valorganic",
+      "tags": ["HTML", "CSS", "JS"],
+      "desc": "A fresh, clean e-commerce style website for an organic brand — designed to build trust and drive product interest."
+    }
+  ],
+
+  "pricing": [
+    {
+      "name": "Starter",
+      "desc": "Perfect for individuals and small businesses needing a clean online presence fast.",
+      "naira": "₦75,000",
+      "usd": "~$50 USD",
+      "badge": "fixed",
+      "popular": false,
+      "features": ["1-page website", "Mobile responsive", "Contact form", "Basic SEO setup", "Delivered in 5–7 days"]
+    },
+    {
+      "name": "Business",
+      "desc": "For growing businesses that need a full professional website that converts visitors.",
+      "naira": "₦150,000",
+      "usd": "~$100 USD",
+      "badge": "negotiable",
+      "popular": true,
+      "features": ["Up to 5 pages", "Mobile responsive", "Contact form + WhatsApp", "SEO optimised", "Google Analytics setup", "Delivered in 10–14 days"]
+    },
+    {
+      "name": "Premium",
+      "desc": "Fully custom website with premium design, animations, and ongoing support included.",
+      "naira": "₦300,000",
+      "usd": "~$200 USD",
+      "badge": "negotiable",
+      "popular": false,
+      "features": ["Unlimited pages", "Custom animations", "Advanced SEO", "Speed optimisation", "1 month free support", "Delivered in 3–4 weeks"]
+    },
+    {
+      "name": "E-commerce",
+      "desc": "A full online store built to sell — product pages, cart, and payment integration.",
+      "naira": "₦450,000",
+      "usd": "~$300 USD",
+      "badge": "negotiable",
+      "popular": false,
+      "features": ["Full online store", "Product listings & cart", "Payment gateway integration", "Mobile responsive", "Order management", "Delivered in 4–5 weeks"]
+    }
+  ],
+
+  "faq": [
+    { "q": "How long does a project usually take?", "a": "Most landing pages take 5–7 days. Business websites take 10–14 days, and full custom or e-commerce projects take 3–5 weeks depending on scope. I'll give you an exact timeline after our first chat." },
+    { "q": "How much do I need to pay upfront?", "a": "I usually require 50% upfront to begin work, with the remaining 50% due on delivery. For larger projects, payment can be split into milestones — we'll agree on this before starting." },
+    { "q": "Do you offer revisions if I don't like something?", "a": "Yes. Every package includes revision rounds before final delivery, so we can fine-tune the design and content together until you're happy with it." },
+    { "q": "What if I don't have content or images ready yet?", "a": "No problem — I can work with placeholder content to start, or help source stock images and write draft copy so we don't lose time waiting." },
+    { "q": "Do you handle hosting and domains too?", "a": "Yes, I can set up hosting and connect your domain for you. If you don't have a domain yet, I'll help you pick and register one." },
+    { "q": "What happens after the site is delivered?", "a": "You get a fully working site plus basic guidance on how to manage it. Premium and E-commerce packages include a free support period after launch, and ongoing maintenance is available afterward if you need it." }
+  ],
+
+  "developer": {
+    "name": "Bryant Ekpa",
+    "email": "brianekpa40@gmail.com",
+    "phone": "08169020467",
+    "whatsapp": "https://wa.me/2348169020467",
+    "formspree": "https://formspree.io/f/xwvjaaay",
+    "supabaseUrl": "https://bwwomxfrubitvuxsgapj.supabase.co",
+    "supabaseKey": "sb_publishable_0UOtAYXd54L5uqkcRIsGrA_FBcTWWqo"
+  }
+}
